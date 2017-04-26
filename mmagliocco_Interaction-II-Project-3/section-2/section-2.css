@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+  margin: 0;
+  background-color: #eed19d;
+  -webkit-transition: background-color 6s ease;
+  -moz-transition: background-color 6s ease;
+  transition: background-color 6s ease;
+  overflow: hidden;
+}
+
+#focus {
+  width: 450px;
+  max-width: 100%;
+  font-family: 'Nunito', sans-serif;
+  font-size: 9vw;
+  color: transparent;
+  text-shadow: 0px 0px 50px black;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 120px;
+  cursor: crosshair;
+  -webkit-user-select: none; /* Chrome, Opera, Safari */
+   -moz-user-select: none; /* Firefox 2+ */
+   -ms-user-select: none; /* IE 10+ */
+   user-select: none; /* Standard syntax */
+}
+
+#bumper {
+    height: 1px;
+}
+
+#focus-container {
+  width: 450px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 25%;
+}
+
+#top-image {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+  max-height 100%;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+#drag-destination-1 {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  display: none;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-left: 205px;
+  position: absolute;
+}
+
+#drag-destination-2 {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  display: none;
+  margin: 0 auto;
+  
+}
+
+#drag-destination-3 {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  margin-top: 90px;
+  margin-left: 20%;
+  left: 150px;
+  position: absolute;
+  margin-top: 200px;
+  display: none;
+}
+
+#drag-destination-4 {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  margin-top: 90px;
+  right: 30%;
+  position: absolute;
+  margin-top: 200px;
+  display: none;
+}
+
+#dot-draggable {
+  width: 30px;
+  height: 30px;
+  background: orange;
+  border-radius: 100%;
+  margin-top: 0px;
+  display: none;
+  color: transparent;
+  position: absolute;
+  z-index: 10;
+  cursor: crosshair;
+}
+
+
+#green-bar {
+  width: 50px;
+  height: 3000px;
+  background: darkgreen;
+  margin: 0 auto;
+  display: none;
+}
